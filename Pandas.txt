@@ -1,0 +1,41 @@
+Reviewing APIS
+
+1. gum/Burny/show.json?APIKEY=b335
+  gum/887/show.json?APIKEY=b335
+  flavor/Burny.json?APIKEY=b335
+  never use {} []
+  you can add the id at the end with &id#
+2. import requests
+response = requests.get('')
+data = response.json
+#json formats the data. The data comes as a string and we want it as a list.
+for flavor in data['flavors']
+print(flavor)
+
+3. response = requests.get('gum/321/show.json?APIKEY=b335')
+data = response.json()
+if data ['popularity'] > 100:
+  print (Wow, that's popular!)
+
+4. for flavor in data['flavors']:
+print(flavor)
+
+PANDAS
+Class 06-04-2018
+Data is Plural 
+https://tinyletter.com/data-is-plural
+Exploratory data analysis(be able to make 20 questions)
+
+-also find outliers
+-top x
+-best/worst
+-max/min
+
+aggregate statistic
+-numbers
+-averages
+-sums
+-change over time
+
+
+
