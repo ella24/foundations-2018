@@ -15,5 +15,5 @@
 #
 # For example, you can run a backup of all your user accounts
 # at 5 a.m every week with:
-0 18 * * * python3 stories.py
+0 */6 * * * python3 stories.py
 
