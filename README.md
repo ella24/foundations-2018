@@ -1,2 +1,2 @@
-# foundations-2018
-Stuff from Foundations lead
+# Foundations Summer 2018
+Homeworks
